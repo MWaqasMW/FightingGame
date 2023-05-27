@@ -1,0 +1,29 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+
+.bgimg{
+    background-image: url(images/guiltygearxx-stage-hell.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+}
+
+.bgimg .player1{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    flex-direction: row-reverse;
+}
+.bgimg .player2{
+    position: absolute;
+    right: 1%;
+    bottom: 5%;
+    flex-direction: row-reverse;
+}
